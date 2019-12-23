@@ -286,41 +286,5 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
-  },
-  {
-    "data": [
-      {
-        "text": "what do you do?",
-        "userDefined": false,
-        "id": "2b87d1a5-14d3-57de-90ad-03eefb3acaf7"
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "data": [
-      {
-        "text": "how can you help me?",
-        "userDefined": false,
-        "id": "2434efbc-f8b2-55f7-8f0d-fe8be059b694"
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "data": [
-      {
-        "text": "what can i ask",
-        "userDefined": false,
-        "id": "77c1719e-5748-56df-ac5d-7827cc568323"
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
   }
 ]
