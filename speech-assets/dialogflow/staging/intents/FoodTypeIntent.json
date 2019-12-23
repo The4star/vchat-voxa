@@ -1,0 +1,30 @@
+{
+  "name": "FoodTypeIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FoodTypeIntent",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@list-of-foodtypes",
+          "name": "foodType",
+          "value": "$foodType",
+          "isList": false,
+          "required": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "id": "25287781-d863-5b95-b64c-be45e1a1d08c"
+}

@@ -1,0 +1,72 @@
+{
+  "en": {
+    "translation": {
+      "Launch": {
+        "Welcome": {
+          "text": [
+            "👋 Hey I'm the MRS, or the Melbourne Restaurant Suggester 😁.\nYou can ask me for the best food in Melbourne or search by cuisine 🍕 🍝 🍔.\nWhat type of food are you looking for❓ 🤔.",
+            "👋 Hi there, you must be hungry. I'm the Mrs, or the Melbourne Restaurant Suggester 😁. I can help you find the best Restaurants in Melbourne. What type of food are you looking for❓ 🤔."
+          ]
+        }
+      },
+      "FoodInfo": {
+        "Suggestion": {
+          "text": [
+            "{foodType} Sounds great! Here are some suggestions. ",
+            "Ok, here's a few suggestions for {foodType}",
+            "I've found some suggestions for you for {foodType}"
+          ]
+        },
+        "General": {
+          "text": [
+            "Me too. What type of food do you feel like? 🍕 🍝 🍔",
+            "What food do you feel like eating❓",
+            "What would you like to eat❓"
+          ]
+        }
+      },
+      "FallBack": {
+        "Misunderstood": {
+          "text": [
+            "I'm sorry i didn't get that, can you try again❓",
+            "Sorry what was that❓"
+          ]
+        }
+      },
+      "Yes": {
+        "text": [
+          "Great! ",
+          "Sure",
+          "Awesome!"
+        ]
+      },
+      "No": {
+        "text": [
+          "that's ok",
+          "No worries"
+        ]
+      },
+      "Cancel": {
+        "text": [
+          "That's Cancelled",
+          "Done! ✔️"
+        ]
+      },
+      "Help": {
+        "text": [
+          "You can ask me questions like:. Where can i get a good Burger? 🍔. Where is the best pizza? 🍕. I want some italian food! 🍝. ",
+          "Ask me questions about food in Melbourne. Where's the best mexican food?🌮. Where can i get some good chinese? 🇨🇳. "
+        ]
+      },
+      "Joke": {
+        "Response": {
+          "text": [
+            "A teacher asked her students to use the word \"beans\" in a sentence. \"My father grows beans\" said one girl. \"My mother cooks beans\" said a boy. A third student spoke up, \"We are all human beans",
+            "Q: Why do hamburgers go to the gym?. A: To get better buns!",
+            "Q: How much room is needed for fungi to grow?. A: As mushroom as possible! 🍄"
+          ]
+        }
+      }
+    }
+  }
+}

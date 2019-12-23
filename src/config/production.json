@@ -1,0 +1,12 @@
+{
+	"server": {
+		"port": 3500,
+		"hostSkill": false
+	},
+  "googleAnalytics": {
+    "trackingId": "UA-XXXX-X",
+    "appName": "mrs-voxa",
+    "ignoreUsers": [],
+    "suppressSending": false
+  }
+}

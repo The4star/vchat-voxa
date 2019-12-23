@@ -1,0 +1,154 @@
+[
+  {
+    "value": "Mexican Food",
+    "synonyms": [
+      "Mexican Food",
+      "Mexican",
+      "Tex Mex",
+      "Food from Mexico"
+    ]
+  },
+  {
+    "value": "Japanese Food",
+    "synonyms": [
+      "sushi",
+      "Japanese Food",
+      "Food from Japan",
+      "Japanese"
+    ]
+  },
+  {
+    "value": "Asian Food",
+    "synonyms": [
+      "Asian Food",
+      "Food From Asia",
+      "Asian",
+      "Noodles"
+    ]
+  },
+  {
+    "value": "Italian Food",
+    "synonyms": [
+      "Italian Food",
+      "Italian",
+      "Italy",
+      "Food from Italy",
+      "Pasta"
+    ]
+  },
+  {
+    "value": "Pub Food",
+    "synonyms": [
+      "Pub Food",
+      "Pub Grub",
+      "Bar Food",
+      "Counter Meal",
+      "Countery"
+    ]
+  },
+  {
+    "value": "Indian Food",
+    "synonyms": [
+      "Indian Food",
+      "Indian",
+      "Food from India"
+    ]
+  },
+  {
+    "value": "Vietnamese Food",
+    "synonyms": [
+      "Vietnamese Food",
+      "Vietnamese Food",
+      "Food from Vietnam",
+      "Vietnamese"
+    ]
+  },
+  {
+    "value": "Pizza",
+    "synonyms": [
+      "Pizza",
+      "Za",
+      "Pizza Pie"
+    ]
+  },
+  {
+    "value": "Hamburger",
+    "synonyms": [
+      "Hamburger",
+      "Burger",
+      "Burgers",
+      "Hamburgers"
+    ]
+  },
+  {
+    "value": "Drinks",
+    "synonyms": [
+      "Beer",
+      "Wine",
+      "Spirits",
+      "Alcohol",
+      "Drink",
+      "Drinks",
+      "Bevvies",
+      "Frothies",
+      "Cold ones"
+    ]
+  },
+  {
+    "value": "Dessert",
+    "synonyms": [
+      "dessert",
+      "sweet",
+      "sweets",
+      "ice cream",
+      "cake",
+      "chocolate"
+    ]
+  },
+  {
+    "value": "Chinese Food",
+    "synonyms": [
+      "Chinese Food",
+      "Food from China",
+      "chinese",
+      "chinese takeout",
+      "dumplings"
+    ]
+  },
+  {
+    "value": "Breakfast",
+    "synonyms": [
+      "Breakfast",
+      "Bacon and eggs",
+      "Brekky",
+      "Breaky"
+    ]
+  },
+  {
+    "value": "Lunch",
+    "synonyms": [
+      "Lunch",
+      "Midday meal",
+      "Grub"
+    ]
+  },
+  {
+    "value": "Dinner",
+    "synonyms": [
+      "Dinner",
+      "Final meal of the day",
+      "supper",
+      "main meal",
+      "evening meal"
+    ]
+  },
+  {
+    "value": "African Food",
+    "synonyms": [
+      "african food",
+      "food from africa",
+      "african",
+      "africa"
+    ]
+  }
+]

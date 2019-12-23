@@ -1,0 +1,8 @@
+{
+  "platforms": ["dialogflow"],
+  "spreadsheets": [
+    "https://docs.google.com/spreadsheets/d/1ilXWIuNTupVOfueLgQwbD-0S1NiLoVUyjrdmfjqBH2M/"
+  ],
+  "contentPath": "src/content",
+  "viewsPath": "src/languageResources"
+}

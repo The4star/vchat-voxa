@@ -1,0 +1,57 @@
+[
+    {
+        "text": "yes",
+        "payload": "yes",
+        "intent": ""
+    },
+    {
+        "text": "no",
+        "payload": "no",
+        "intent": ""
+    },
+    {
+        "text": "more info",
+        "link": "https://www.zomato.com/gold/",
+        "intent": ""
+    },
+    {
+        "text": "🍕",
+        "payload": "pizza",
+        "intent": "WelcomeIntent"
+    },
+    {
+        "text": "🍝",
+        "payload": "italian",
+        "intent": "WelcomeIntent"
+    },
+    {
+        "text": "🍔",
+        "payload": "burger",
+        "intent": "WelcomeIntent"
+    },
+    {
+        "text": "Help",
+        "payload": "help",
+        "intent": "WelcomeIntent"
+    },
+    {
+        "text": "🌮",
+        "payload": "mexican",
+        "intent": "GeneralFoodIntent"
+    },
+    {
+        "text": "🍣",
+        "payload": "japanese",
+        "intent": "GeneralFoodIntent"
+    },
+    {
+        "text": "🍺",
+        "payload": "drinks",
+        "intent": "GeneralFoodIntent"
+    },
+    {
+        "text": "Help",
+        "payload": "help",
+        "intent": "GeneralFoodIntent"
+    }
+]
