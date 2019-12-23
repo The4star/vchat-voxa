@@ -1,29 +1,5 @@
 {
-  "Launch.Welcome.text": [
-    "en"
-  ],
-  "FoodInfo.Suggestion.text": [
-    "en"
-  ],
-  "FoodInfo.General.text": [
-    "en"
-  ],
-  "FallBack.Misunderstood.text": [
-    "en"
-  ],
-  "Yes.text": [
-    "en"
-  ],
-  "No.text": [
-    "en"
-  ],
-  "Cancel.text": [
-    "en"
-  ],
-  "Help.text": [
-    "en"
-  ],
-  "Joke.Response.text": [
+  "Launch.FirstTime.ask": [
     "en"
   ]
 }
