@@ -11,7 +11,7 @@ const QuickReply = require("../services/db/models/QuickReply");
 
 let environment = process.env.NODE_ENV || "staging";
 
-if (environment === "local.example") {
+if (environment === "local") {
   environment = "staging";
 }
 
@@ -21,30 +21,31 @@ const voxaApp = new VoxaApp({ Model, views, variables });
 states(voxaApp);
 
 voxaApp.onBeforeReplySent( async (voxaEvent, reply) => {
-
-  const foodType = voxaEvent.rawEvent.queryResult.parameters.foodType;
+// get the card type and intent
+  const cardType = voxaEvent.rawEvent.queryResult.parameters.cardType;
   const intent = voxaEvent.dialogflow.conv.intent
-  if (foodType !== undefined) {
+  
+  // find matching cards in DB
+  if (cardType !== undefined) {
     await connectToDb();
-    const matchingCards = await Card.find({ entity: foodType });
+    const matchingCards = await Card.find({ entity: cardType });
     reply.payload.cards = matchingCards
     disconnectFromDb()
   }
 
+  // find matching quick replies in DB
   switch (intent) {
-    case "WelcomeIntent":
+    case "LaunchIntent":
       await connectToDb();
       const matchingWelcomeQuickReplies = await QuickReply.find({ intent: intent });
       reply.payload.quickReplies = matchingWelcomeQuickReplies
       disconnectFromDb()
-      console.log(reply)
       break;
-    case "GeneralFoodIntent":
+    case "ShowCardIntent":
       await connectToDb();
       const matchingGeneralFoodIntentReplies = await QuickReply.find({ intent: intent });
       reply.payload.quickReplies = matchingGeneralFoodIntentReplies
       disconnectFromDb()
-      console.log(reply)
       break;
     default:
       break;

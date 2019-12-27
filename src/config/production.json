@@ -5,8 +5,11 @@
 	},
   "googleAnalytics": {
     "trackingId": "UA-XXXX-X",
-    "appName": "mrs-voxa",
+    "appName": "vchat-voxa",
     "ignoreUsers": [],
     "suppressSending": false
+  },
+  "s3": {
+    "bucket": "vchat-bucket"
   }
 }

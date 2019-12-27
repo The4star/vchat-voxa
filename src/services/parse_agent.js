@@ -5,7 +5,7 @@ const path = require("path")
 const dfPath = path.resolve(__dirname, "../../speech-assets/dialogflow");
 
 const agentDetails = {
-    "description": "Helps find places to eat out in Melbourne.",
+    "description": "A chat bot boilerplate that speeds up development",
     "language": "en",
     "shortDescription": "",
     "examples": "",
@@ -17,7 +17,7 @@ const agentDetails = {
     "disableStackdriverLogs": true,
     "googleAssistant": {
       "googleAssistantCompatible": false,
-      "project": "reactpageagent-sjgrax",
+      "project": "vchat-kxtktc",
       "welcomeIntentSignInRequired": false,
       "startIntents": [],
       "systemIntents": [],
@@ -40,7 +40,7 @@ const agentDetails = {
     },
     "defaultTimezone": "Australia/Sydney",
     "webhook": {
-      "url": "https://9dmqks2yzk.execute-api.us-east-1.amazonaws.com/dev/googleAction",
+      "url": "/googleAction",
       "username": "",
       "headers": {},
       "available": true,

@@ -1,5 +1,5 @@
 {
-  "description": "Helps find places to eat out in Melbourne.",
+  "description": "A chat bot boilerplate that speeds up development",
   "language": "en",
   "shortDescription": "",
   "examples": "",
@@ -11,7 +11,7 @@
   "disableStackdriverLogs": true,
   "googleAssistant": {
     "googleAssistantCompatible": false,
-    "project": "reactpageagent-sjgrax",
+    "project": "vchat-kxtktc",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
@@ -34,7 +34,7 @@
   },
   "defaultTimezone": "Australia/Sydney",
   "webhook": {
-    "url": "https://9dmqks2yzk.execute-api.us-east-1.amazonaws.com/dev/googleAction",
+    "url": "/googleAction",
     "username": "",
     "headers": {},
     "available": true,

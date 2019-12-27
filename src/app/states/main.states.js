@@ -1,18 +1,18 @@
 function register(voxaApp) {
-  voxaApp.onIntent("WelcomeIntent", voxaEvent => {
+  voxaApp.onIntent("LaunchIntent", voxaEvent => {
     return { text: "Launch.Welcome.text" };
   });
 
-  voxaApp.onIntent("GeneralFoodIntent", voxaEvent => {
-    return { text: "FoodInfo.General.text" };
+  voxaApp.onIntent("ShowCardIntent", voxaEvent => {
+    return { text: "Cardtype.text" };
+  });
+
+  voxaApp.onIntent("TypeofCardIntent", voxaEvent => {
+    return { text: "ShowCards.text" };
   });
 
   voxaApp.onIntent("FallbackIntent", voxaEvent => {
     return { text: "FallBack.Misunderstood.text" };
-  });
-
-  voxaApp.onIntent("FoodTypeIntent", voxaEvent => {
-    return { text: "FoodInfo.Suggestion.text" };
   });
 
   voxaApp.onIntent("HelpIntent", voxaEvent => {
@@ -34,12 +34,6 @@ function register(voxaApp) {
   voxaApp.onIntent("NoIntent", voxaEvent => {
     return { text: "No.text" };
   });
-
-  // voxaApp.onState("FoodHandler",voxaEvent=>{
-  // handle yes
-  // handle no
-  //  return {to:'entry'}
-  // })
 }
 
 module.exports = register;
