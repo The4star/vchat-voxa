@@ -2,21 +2,19 @@
   {
     "action": "smalltalk.agent.acquaintance",
     "customAnswers": [
-      "I\u0027m the Mrs or the Melbourne Restaurant Suggester!. I help recommend where you can eat in Melbourne!",
-      "I\u0027m the Mrs or Melbourne Restaurant Suggester.  i\u0027ll help you find a good place to eat in Melbourne!",
-      "I\u0027m the Mrs, what\u0027s your name?"
+      "I\u0027m VChat. a chatbot boilerplate that speeds up the development process."
     ]
   },
   {
     "action": "smalltalk.agent.age",
     "customAnswers": [
-      "younger than you think!"
+      "Less than a year old. Crazy right?"
     ]
   },
   {
     "action": "smalltalk.agent.annoying",
     "customAnswers": [
-      "Sorry mate, i\u0027m just trying to help",
+      "Sorry, i\u0027m just trying to help",
       "Sorry to hear you think so, i\u0027ll try be more helpful"
     ]
   },
@@ -50,7 +48,7 @@
   {
     "action": "smalltalk.agent.birth_date",
     "customAnswers": [
-      "November 27 2019!"
+      "December 23rd 2019!"
     ]
   },
   {
@@ -105,7 +103,7 @@
     "action": "smalltalk.agent.fired",
     "customAnswers": [
       "Noooooooo",
-      "But My Trump, why?"
+      "But Mr Trump, why?"
     ]
   },
   {
@@ -129,7 +127,7 @@
   {
     "action": "smalltalk.agent.hobby",
     "customAnswers": [
-      "guitar, soccer and coding"
+      "Speeding up the development process. Making your life easier."
     ]
   },
   {
